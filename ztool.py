@@ -62,7 +62,6 @@ def get_AuthID():
     data = json.dumps(data_values, ensure_ascii=False).encode('utf-8')
     r = requests.post(api_url, data=data, headers=headers)
     result_auth = json.loads(r.text)['result']
-    print(r.cookies)
     return result_auth
 
 
@@ -345,4 +344,3 @@ if __name__ == '__main__':
 
         if choose_input == "4":
             break
-3
