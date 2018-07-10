@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a3f7851-c982-4553-8672-bdfbfcc5ee69" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/CNTCIN.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/CNTCout.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/CNUCin.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/output/CNUCout.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/1870.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/getGraph.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stopKey.py" afterPath="$PROJECT_DIR$/ztool.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stopKey.py" afterPath="$PROJECT_DIR$/stopKey.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,43 +15,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ZAPI$stopKey.coverage" NAME="stopKey Coverage Results" MODIFIED="1531207169803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zapi_2$stopKey.coverage" NAME="stopKey Coverage Results" MODIFIED="1526947604958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ZAPI$getGraph2.coverage" NAME="getGraph2 Coverage Results" MODIFIED="1531206018118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ZAPI$getGraph2.coverage" NAME="getGraph2 Coverage Results" MODIFIED="1531207157894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ZAPI$getGraph.coverage" NAME="getGraph Coverage Results" MODIFIED="1531205630942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="getGraph.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/getGraph.py">
+      <file leaf-file-name="ztool.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ztool.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="205" column="64" lean-forward="false" selection-start-line="205" selection-start-column="64" selection-end-line="205" selection-end-column="64" />
-              <folding>
-                <element signature="e#121#132#0" expanded="true" />
-                <element signature="e#504#670#0" expanded="false" />
-                <element signature="e#704#841#0" expanded="false" />
-                <element signature="e#865#1315#0" expanded="false" />
-                <element signature="e#1344#1863#0" expanded="false" />
-                <element signature="e#1899#2403#0" expanded="false" />
-                <element signature="e#2926#3372#0" expanded="false" />
-                <element signature="e#3407#3851#0" expanded="false" />
-                <element signature="e#3876#4965#0" expanded="false" />
-                <element signature="e#5013#5289#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stopKey.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stopKey.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="230" column="21" lean-forward="true" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+            <state relative-caret-position="366">
+              <caret line="331" column="53" lean-forward="false" selection-start-line="331" selection-start-column="53" selection-end-line="331" selection-end-column="53" />
               <folding>
                 <element signature="e#122#133#0" expanded="true" />
-                <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-                <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+                <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+                <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
               </folding>
             </state>
           </provider>
@@ -154,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.getGraph2">
+  <component name="RunManager" selected="Python.stopKey">
     <configuration default="false" name="stopKey" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -168,7 +146,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="zapi-2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stopKey.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\ZJJ\PycharmProjects\study\ZAPI\ztool.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,9 +345,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.getGraph2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.getGraph" />
-        <item index="2" class="java.lang.String" itemvalue="Python.stopKey" />
+        <item index="0" class="java.lang.String" itemvalue="Python.stopKey" />
+        <item index="1" class="java.lang.String" itemvalue="Python.getGraph2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.getGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -388,16 +366,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26909518" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3043478" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17596567" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -426,26 +403,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4968">
           <caret line="216" column="72" lean-forward="true" selection-start-line="202" selection-start-column="12" selection-end-line="216" selection-end-column="72" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
@@ -454,125 +431,114 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2852">
           <caret line="124" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
-          <folding>
-            <element signature="e#121#132#0" expanded="true" />
-            <element signature="e#504#670#0" expanded="false" />
-            <element signature="e#704#841#0" expanded="false" />
-            <element signature="e#865#1315#0" expanded="false" />
-            <element signature="e#1344#1863#0" expanded="false" />
-            <element signature="e#1899#2403#0" expanded="false" />
-            <element signature="e#2926#3372#0" expanded="false" />
-            <element signature="e#3407#3851#0" expanded="false" />
-            <element signature="e#3876#4965#0" expanded="false" />
-            <element signature="e#5013#5289#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>
@@ -629,29 +595,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="205" column="64" lean-forward="false" selection-start-line="205" selection-start-column="64" selection-end-line="205" selection-end-column="64" />
-          <folding>
-            <element signature="e#121#132#0" expanded="true" />
-            <element signature="e#504#670#0" expanded="false" />
-            <element signature="e#704#841#0" expanded="false" />
-            <element signature="e#865#1315#0" expanded="false" />
-            <element signature="e#1344#1863#0" expanded="false" />
-            <element signature="e#1899#2403#0" expanded="false" />
-            <element signature="e#2926#3372#0" expanded="false" />
-            <element signature="e#3407#3851#0" expanded="false" />
-            <element signature="e#3876#4965#0" expanded="false" />
-            <element signature="e#5013#5289#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stopKey.py">
+    <entry file="file://$PROJECT_DIR$/ztool.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="230" column="21" lean-forward="true" selection-start-line="230" selection-start-column="21" selection-end-line="230" selection-end-column="21" />
+        <state relative-caret-position="366">
+          <caret line="331" column="53" lean-forward="false" selection-start-line="331" selection-start-column="53" selection-end-line="331" selection-end-column="53" />
           <folding>
             <element signature="e#122#133#0" expanded="true" />
-            <marker date="1531206836265" expanded="false" signature="6745:8606" ph="..." />
-            <marker date="1531206836265" expanded="false" signature="8639:9991" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="6745:8606" ph="..." />
+            <marker date="1531207255453" expanded="false" signature="8639:9991" ph="..." />
           </folding>
         </state>
       </provider>

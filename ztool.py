@@ -329,7 +329,7 @@ if __name__ == '__main__':
                     stime_input = input('请输入开始时间eg. 20180710000000 >>> ')
                     width_input = input('请输入图片的width >>> ')
                     height_input = input('请输入图片的height >>> ')
-                    pic_name_input = input('请输入图片的 >>> ')
+                    pic_name_input = input('请输入图片的文件名 >>> ')
                     get_Pic(graphid=ID_graph, period=period_input, stime=stime_input, width=width_input,
                             height=height_input,pic_name=pic_name_input)
                     choose3_input2 = input('回到主页面请输入1，继续查找请输入2 >>> ')
