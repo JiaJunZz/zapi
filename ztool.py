@@ -211,7 +211,7 @@ def get_Pic(graphid, period, stime, width, height,pic_name):
     }
     # 发送带有账号密码的post,并获取cookie存储在session中
     s.post(url=login_url, data=postData, headers=headers_graph)
-    graph_url = 'http://172.25.25.57/zabbix/chart2.php'
+    graph_url = 'http://ip/zabbix/chart2.php'
     payload = {'graphid': graphid,
                'period': period,
                'stime': stime,
