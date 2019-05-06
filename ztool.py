@@ -26,8 +26,8 @@ index_logined_menu = '''
 '''
 
 headers = {"Content-Type": "application/json"}
-api_url = "http://172.25.25.57/zabbix/api_jsonrpc.php"
-login_url = "http://172.25.25.57/zabbix/index.php"
+api_url = "http://ip/zabbix/api_jsonrpc.php"
+login_url = "http://ip/zabbix/index.php"
 headers_graph = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0'}
 
 
@@ -54,7 +54,7 @@ def get_AuthID():
         "method": "user.login",
         "params": {
             "user": "Admin",
-            "password": "Esunny123"
+            "password": "pass"
         },
         "id": 1,
         "auth": None
@@ -205,7 +205,7 @@ def get_Pic(graphid, period, stime, width, height,pic_name):
     s = requests.session()
     postData = {
         "name": "Admin",
-        "password": "Esunny123",
+        "password": "pass",
         "autologin": 1,
         "enter": "Sign in"
     }
