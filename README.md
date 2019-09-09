@@ -9,7 +9,3 @@
 ## Project screeshots
 ![image](https://github.com/zshengsheng/zapi/blob/master/github_image/1.png)
 
-![image](https://github.com/zshengsheng/zapi/blob/master/github_image/2.png)
-
-![image](https://github.com/zshengsheng/zapi/blob/master/github_image/3.png)
-
